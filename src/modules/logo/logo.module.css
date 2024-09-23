@@ -1,0 +1,33 @@
+.logoWrapper {
+    overflow: hidden;
+    width: 70%;
+    position: center;
+    background-color: #f9f9f9;
+    padding: 20px 0;
+    margin-left: 15%;
+  
+}
+
+.logoContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    animation: scroll 10s linear infinite;
+}
+
+.logo {
+    width: 150px;
+    
+    height: auto;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(100%);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
