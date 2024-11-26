@@ -67,8 +67,9 @@ export function Contact() {
                     <h2 className="text-5xl font-medium font-poppins mb-7">Contact our team</h2>
                     <p className="text-colors-text-secondary text-lg font-poppins mb-16">
                         Feel free to reach out using the contact form below or via the provided contact
-                        information. We'll respond promptly to ensure you have a seamless and enjoyable
-                        experience engaging with VisionIQ. Let's connect and bring your AI aspirations to life!
+                        information. We&apos;ll respond promptly to ensure you have a seamless and enjoyable
+                        experience engaging with VisionIQ. Let&apos;s connect and bring your AI aspirations to life!
+
                     </p>
                 </div>
 

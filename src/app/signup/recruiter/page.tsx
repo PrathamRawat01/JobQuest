@@ -1,3 +1,4 @@
+"use client"
 import React from 'react'
 import SignUpRecruiter from '@/modules/sign-up/components/signUpRecruiter'
 

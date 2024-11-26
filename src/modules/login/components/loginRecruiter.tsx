@@ -1,6 +1,14 @@
 import React from "react";
+import {useRouter } from "next/navigation";
+
 
 export default function LoginRecruiter() {
+    const router = useRouter();
+    const handleContinueClick = ()=>{
+        router.push("/home/recruiter")
+    };
+
+
     return (
         <div className="min-h-screen flex items-center justify-center bg-purple-400">
             <div className="bg-white shadow-lg rounded-lg flex max-w-4xl overflow-hidden">
@@ -45,6 +53,7 @@ export default function LoginRecruiter() {
                     {/* Submit Button */}
                     <div className="mb-6">
                         <button
+                        onClick={handleContinueClick}
                             className="w-full bg-purple-600 hover:bg-purple-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
                             type="button"
                         >

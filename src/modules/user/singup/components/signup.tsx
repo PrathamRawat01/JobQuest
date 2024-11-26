@@ -24,7 +24,7 @@ export default function SignUp() {
             const user = await User.findOne({ email });
             if(user) throw new Error ("User Already Exists");
 
-            const hashedPassword: await hash(password , 10);
+            const hashedPassword = await hash(password , 10);
 
             //create new user now 
             User.create({
